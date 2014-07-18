@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Wish 1" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Used"
+            android:textOff="Unused" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wish 2" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Unused"
+            android:textOn="Used" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wish 3" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Unused"
+            android:textOn="Used" />
+
+    </LinearLayout>
+	
+    <Button
+    	android:id="@+id/button1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Reset wishes" />
+</LinearLayout>
